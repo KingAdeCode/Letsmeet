@@ -1,0 +1,197 @@
+body {
+    background: #d8e9ff;
+    background: #dbdbdb;
+}
+
+.p {
+    padding:20px;
+}
+
+.pt {
+   padding-top: 20px;
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+
+.break-line {
+  border-top: 1px solid #aaaaaa;
+  padding:5px 0px;
+}
+
+.full-btn {
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+header {
+    padding: 20px 20px;
+    width: 100%;
+    min-height: 80px;
+    background: #00008b;
+}
+
+.slogan {
+    background: rgb(0, 139, 204);
+    color: white;
+    width: 100%;
+    min-height: 40px;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+
+.heading1{
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 20px 0px;
+}
+
+.heading2{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding:10px 0px;
+}
+
+.full-w {
+  width: 100%;
+}
+
+.push-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details {
+  border:1px solid #aaaaaa;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.friend-box {
+  box-shadow:3px 1px 10px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 20px 10px;
+  margin:10px 5px;
+}
+
+.box-bg {
+    background: #ffffff;
+    padding: 30px 30px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.box-details {
+  padding: 10px 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.box-medium {
+  max-width: 600px;
+  min-height: 400px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.login-box {
+    background: #ffffff;
+    padding: 30px 20px;
+    width: 400px;
+    min-height: 350px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    float: left;
+    padding: 10px 10px;
+    color: white;
+    font-weight: 200;
+    font-size: 1.2em;
+    letter-spacing: .40em;
+    text-transform: uppercase;
+}
+
+
+.profile-view {
+  padding: 20px 10px;
+  margin: 10px 0px;
+  border: 1px solid #aaaaaa;
+}
+
+
+.top-menu {
+    float: right;
+}
+
+.top-menu ul {
+    display: flex;
+}
+
+.top-menu ul li {
+    padding: 10px 10px;
+    list-style-type: none;
+}
+
+.top-menu ul li a{
+    text-decoration: none;
+    color: white;
+     padding: 10px 10px;
+}
+
+.top-menu ul li a:hover{
+    background-color: yellowgreen;
+     padding: 10px 10px;
+}
+
+.form-padding {
+    padding: 25px 10px;
+    margin: 10px 0px;
+}
+
+.select-padding {
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+.home-banner {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-position:center center;
+    min-height: 150px;
+    width: 100%;
+}
+
+.home-banner-overlay {
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 150px;
+    width: 100%;
+}
+
+.home-banner-content {
+    height: 100%;
+    width: 100%;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
